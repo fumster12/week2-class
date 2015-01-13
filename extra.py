@@ -8,10 +8,10 @@ guess = eval(input("Can you guess it? "))
 
 # CHALLENGE:
 #
-# The user gets one guess.
-#
 # If the guess matches the number_in_my_head,
-# tell the user that they won the game.
+# tell the user that they won the game, and the
+# program can end.
 #
 # Otherwise, display a message telling them whether
-# the number was higher or lower.
+# the number is higher or lower, and require them
+# to guess again.
