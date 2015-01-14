@@ -15,3 +15,14 @@ guess = eval(input("Can you guess it? "))
 # Otherwise, display a message telling them whether
 # the number is higher or lower, and require them
 # to guess again.
+
+# SOLUTION:
+
+while guess != number_in_my_head:
+  if guess < number_in_my_head:
+    print("Higher!")
+  else:
+    print("Lower!")
+  guess = eval(input("Can you guess it? "))
+
+print("You got it:", number_in_my_head)
