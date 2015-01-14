@@ -5,9 +5,12 @@
 
 
 
-# CODE-ALONG: Read the Blackhawks roster from players.txt
+# DEMO: Read the Blackhawks roster from players.txt
 
-
+file = open("players.txt")
+lines = file.readlines()
+for name in lines:
+  print("****", name, "****")
 
 
 

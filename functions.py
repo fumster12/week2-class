@@ -1,8 +1,9 @@
 # Let's learn about functions, the DRY principle,
 # function arguments/parameters, and scope.
 def display(venue, cost, location):
-  #venue
+  x = 5
   print(venue, " costs $", str(cost), " and is located at ", location)
+
 
 
 print("Chicago Landmarks")
