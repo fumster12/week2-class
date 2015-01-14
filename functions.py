@@ -1,15 +1,15 @@
 # Let's learn about functions, the DRY principle,
 # function arguments/parameters, and scope.
-def display(venue):
+def display(venue, cost, location):
   #venue
-  print(venue + " costs $40 and is located at 1033 W. Addison St.")
+  print(venue, " costs $", str(cost), " and is located at ", location)
 
 
 print("Chicago Landmarks")
 print("-----------------")
 
-display("Wrigley Field")
-display("The Bean")
+display("Wrigley Field", "40", "1033 W. Addison St.")
+display("The Bean", 0, "Millenium Park.")
 # display()
 # display()
 # display()
